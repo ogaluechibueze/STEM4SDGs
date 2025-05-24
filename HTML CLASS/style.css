@@ -221,5 +221,44 @@ section {
   gap: 1rem;
 }
 
+#about{
+  position: relative;
+}
 
+.about-containers{
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  display: flex;
+}
 
+.about-details-container{
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.about-pic {
+  border-radius: 2rem;
+}
+
+.details-container{
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: black 0.1rem solid;
+  border-color: whitesmoke;
+  text-align: center;
+}
+
+.section-container{
+  gap: 4rem;
+  height: 80%;
+}
+
+.section__pic-container{
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
